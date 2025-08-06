@@ -81,7 +81,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    LOW_F13, ALT_DEL, KC_LGUI,          PASTEVL, CTL_SPC, RSE_F14, KC_K,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT
   ),
 
-  /* Raise
+  /* Raise (Numeric Pad)
    * ,-----------------------------------------------.                                      ,-----------------------------------------------.
    * |       |       |       |       |       |       |                                      |   *   |   7   |   8   |   9   |   =   |  Del  |
    * |-------+-------+-------+-------+-------+-------|                                      |-------+-------+-------+-------+-------+-------|
@@ -99,7 +99,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______, _______, _______,          _______, _______, _______, KC_0,    KC_1,    KC_2,    KC_3,    KC_SLSH, _______
   ),
 
-  /* Lower
+  /* Lower (Symbols and Arrows)
    * ,-----------------------------------------------.                                      ,-----------------------------------------------.
    * |       |   `   |   [   |   ]   |   %   |   &   |                                      |       |       |   Up  |       |   ^   |       |
    * |-------+-------+-------+-------+-------+-------|                                      |-------+-------+-------+-------+-------+-------|
@@ -137,7 +137,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 };
 
+/*
+to update, 
 
+cd qmk_userspace
+git add .
+git commit -m "adding my keymap"
+git push   
+*/
 
 
 
