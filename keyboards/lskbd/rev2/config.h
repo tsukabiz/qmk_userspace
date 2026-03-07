@@ -1,0 +1,17 @@
+#pragma once
+
+#define SERIAL_USART_FULL_DUPLEX
+#define SERIAL_USART_TX_PIN GP0
+#define SERIAL_USART_RX_PIN GP1
+
+// Custom delay
+#define TAPPING_TERM 150
+#define HOLD_ON_OTHER_KEY_PRESS
+
+// Layer RGB
+#define RGBLIGHT_LAYERS
+#define RGBLED_NUM 48
+#define RGBLIGHT_LED_COUNT 48
+#define RGBLED_SPLIT { 24, 24 }
+#define RGBLIGHT_MAX_LAYERS 4
+#define SPLIT_LAYER_STATE_ENABLE
